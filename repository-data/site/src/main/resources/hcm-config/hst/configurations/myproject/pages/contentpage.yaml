@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/myproject/hst:pages/contentpage:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /left:
+        jcr:primaryType: hst:containercomponentreference
+        hst:referencecomponent: contentpage/left
+      /right:
+        jcr:primaryType: hst:containercomponentreference
+        hst:referencecomponent: contentpage/right

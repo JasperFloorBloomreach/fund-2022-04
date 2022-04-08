@@ -1,0 +1,320 @@
+/content/documents/myproject/landing-pages:
+  .meta:order-before: faq
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippostd:xpagefolder', 'hippotranslation:translated',
+    'mix:versionable']
+  jcr:uuid: d0cd740e-9edb-453d-947d-c113a37bdfef
+  hippo:name: landing pages
+  hippostd:channelid: myproject
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 680e6520-df01-4d57-9415-5f521cf71230
+  hippotranslation:locale: en
+  /experience-the-page:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 5c1cd1c1-62f7-4b79-ba92-7670e6124f00
+    hippo:name: experience, the page
+    hippo:versionHistory: b47b1d70-5203-4c0e-8722-00f18ee90d04
+    /experience-the-page[1]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 447d3271-f026-4381-ba68-44452b0147a3
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-07T14:27:50.023+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T14:28:14.111+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: df34fd9d-b11a-451c-9704-a0afc54cb298
+      hippotranslation:locale: en
+      myproject:introduction: intro
+      myproject:publicationdate: 2022-04-07T14:28:00+02:00
+      myproject:title: Your title here!
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>content</p>
+    /experience-the-page[2]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: 87492005-feab-4edd-9b89-76991d160935
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-07T14:27:50.023+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T14:30:18.306+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: df34fd9d-b11a-451c-9704-a0afc54cb298
+      hippotranslation:locale: en
+      myproject:introduction: intro
+      myproject:publicationdate: 2022-04-07T14:28:00+02:00
+      myproject:title: Your title here!
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>content</p>
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 302ede72-43e3-4fb2-8da5-29e7b8c85343
+        hst:pageref: landing-page
+        /fc3b4497-cec5-4b0a-9759-b6afa4745269:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 7ede4890-299f-4957-926a-ef2a5d580255
+          hippo:identifier: 46ee4574-2846-4952-b0f2-74205e88170b
+          hst:lastmodified: 2022-04-07T12:30:18.306Z
+          /banner:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 3b5b520d-7f05-45fc-ab0a-54b06f3e8da7
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [banners/banner2, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:template: essentials-banner
+    /experience-the-page[3]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: f8da669e-0367-4c87-bab1-1584b275a773
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-07T14:27:50.023+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T14:30:18.306+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-04-07T14:57:39.852+02:00
+      hippotranslation:id: df34fd9d-b11a-451c-9704-a0afc54cb298
+      hippotranslation:locale: en
+      myproject:introduction: intro
+      myproject:publicationdate: 2022-04-07T14:28:00+02:00
+      myproject:title: Your title here!
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>content</p>
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 8a6ccce9-bf78-4b41-9eef-03687a6a49c0
+        hst:pageref: landing-page
+        /fc3b4497-cec5-4b0a-9759-b6afa4745269:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 98602698-804f-4a23-961e-da9e1d3936df
+          hippo:identifier: 46ee4574-2846-4952-b0f2-74205e88170b
+          hst:lastmodified: 2022-04-07T12:30:18.306Z
+          /banner:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 9547e9b4-3c96-4973-bb45-94663ef581a7
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [banners/banner2, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:template: essentials-banner
+  /a-page:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 7ee6cfa6-29a2-454c-a06c-b0bcf394e284
+    hippo:name: A Page
+    hippo:versionHistory: e5b79f1e-0411-48a1-bdb8-a1a82dfbb5d2
+    /a-page[1]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: b79f36d1-6c9b-4ac1-9586-2296db3629f8
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-07T14:52:37.245+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T14:52:46.459+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5b9df7bf-e97b-48df-a6e0-e50acba09504
+      hippotranslation:locale: en
+      myproject:introduction: i
+      myproject:publicationdate: 0001-01-01T12:00:00Z
+      myproject:title: t
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>c</p>
+    /a-page[2]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: 1fe89521-63c6-4316-b944-b5afea3f1c20
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-07T14:52:37.245+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T14:53:14.437+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5b9df7bf-e97b-48df-a6e0-e50acba09504
+      hippotranslation:locale: en
+      myproject:introduction: i
+      myproject:publicationdate: 0001-01-01T12:00:00Z
+      myproject:title: t
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>c</p>
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 65def3b3-c9c8-4aea-8a61-29ee572330df
+        hst:pageref: landing-page
+        /fc3b4497-cec5-4b0a-9759-b6afa4745269:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: fadee5c8-078e-4507-bfaa-b08e27567037
+          hippo:identifier: d572bd83-20f8-43b9-a7e7-afdabf5dfbcb
+          hst:lastmodified: 2022-04-07T12:53:14.437Z
+          /simplecontent:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 39375f9f-6670-4920-8a1b-64b89dc0d240
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+            hst:iconpath: images/essentials/catalog-component-icons/simple-content.svg
+            hst:label: Simple Content
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [landing-pages/a-page, 'webfile:/freemarker/hstdefault/contentpage-main.ftl']
+            hst:template: contentpage-main
+    /a-page[3]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 4fbebbe7-93cb-46f5-8d2c-2de52a6e6044
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-07T14:52:37.245+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T14:53:14.437+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-04-07T14:53:23.194+02:00
+      hippotranslation:id: 5b9df7bf-e97b-48df-a6e0-e50acba09504
+      hippotranslation:locale: en
+      myproject:introduction: i
+      myproject:publicationdate: 0001-01-01T12:00:00Z
+      myproject:title: t
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>c</p>
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 70c9803f-5a4f-4eec-8cb7-a5cac0ff9c7d
+        hst:pageref: landing-page
+        /fc3b4497-cec5-4b0a-9759-b6afa4745269:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 5fe4d3ad-1bd9-441c-9dd3-f8ca68b68da6
+          hippo:identifier: d572bd83-20f8-43b9-a7e7-afdabf5dfbcb
+          hst:lastmodified: 2022-04-07T12:53:14.437Z
+          /simplecontent:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: d0706517-0f55-4534-af85-4c2e1ace2594
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+            hst:iconpath: images/essentials/catalog-component-icons/simple-content.svg
+            hst:label: Simple Content
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [landing-pages/a-page, 'webfile:/freemarker/hstdefault/contentpage-main.ftl']
+            hst:template: contentpage-main
+  /products:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 482786c7-2464-45a5-854a-b3e661c96114
+    hippo:versionHistory: e43047e9-8860-4e60-bb72-04ef7055026a
+    /products[1]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: ca0d9a50-e286-45df-98ee-d8ea46ec5e93
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-07T15:23:55.482+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:23:58.024+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 520693c9-3e94-49df-b413-b1f403ba0b8e
+      hippotranslation:locale: en
+      myproject:introduction: ''
+      myproject:publicationdate: 0001-01-01T12:00:00Z
+      myproject:title: ''
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /products[2]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: 44da24d2-32a6-4e78-b5ed-3b69c571c806
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-07T15:23:55.482+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:24:32.513+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 520693c9-3e94-49df-b413-b1f403ba0b8e
+      hippotranslation:locale: en
+      myproject:introduction: ''
+      myproject:publicationdate: 0001-01-01T12:00:00Z
+      myproject:title: ''
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: ffd6ff06-aca2-4ff8-9ed5-0cf53584db27
+        hst:pageref: landing-page
+        /fc3b4497-cec5-4b0a-9759-b6afa4745269:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 6a981f21-e3a9-445c-8abc-eeb082ee5e8d
+          hippo:identifier: fcab733c-0b9a-4427-875c-65a87cc01a33
+          hst:lastmodified: 2022-04-07T13:24:32.513Z
+          /productlist:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 2ae3887e-6d61-4f8e-8954-8a91064f09d0
+            hst:componentdefinition: hst:components/essentials-catalog/productlist
+            hst:parameternames: [hideFutureItems, scope, documentTypes, sortOrder,
+              sortField, hidePastItems, dateField, pageSize, includeSubtypes]
+            hst:parametervalues: ['off', products, 'myproject:product', desc, '',
+              'off', '', '10', 'on']
+    /products[3]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: fa32039c-ad27-4143-a063-8b3ac20c4ff6
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-07T15:23:55.482+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:24:32.513+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-04-07T15:49:45.933+02:00
+      hippotranslation:id: 520693c9-3e94-49df-b413-b1f403ba0b8e
+      hippotranslation:locale: en
+      myproject:introduction: ''
+      myproject:publicationdate: 0001-01-01T12:00:00Z
+      myproject:title: ''
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 66a07d70-b04f-4c9f-8b2f-0703d792ce47
+        hst:pageref: landing-page
+        /fc3b4497-cec5-4b0a-9759-b6afa4745269:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 4d8dfef1-4813-4ff5-8cb9-eaad10c32ea1
+          hippo:identifier: fcab733c-0b9a-4427-875c-65a87cc01a33
+          hst:lastmodified: 2022-04-07T13:24:32.513Z
+          /productlist:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 386aafea-0dc7-47cb-aeca-0080e3344d67
+            hst:componentdefinition: hst:components/essentials-catalog/productlist
+            hst:parameternames: [hideFutureItems, scope, documentTypes, sortOrder,
+              sortField, hidePastItems, dateField, pageSize, includeSubtypes]
+            hst:parametervalues: ['off', products, 'myproject:product', desc, '',
+              'off', '', '10', 'on']

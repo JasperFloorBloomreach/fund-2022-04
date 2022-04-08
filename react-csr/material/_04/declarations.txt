@@ -1,0 +1,43 @@
+
+interface Product {
+  introduction: string;
+  description: DocumentContent;
+  title: string;
+  rating: number;
+  instock: number;
+  price: number;
+  categories: string[];
+
+  [property: string]: any;
+}
+
+interface PaginationModels {
+  pagination: import('@bloomreach/spa-sdk').Reference;
+}
+
+interface Page {
+  number: number;
+  site: Link;
+  self: Link;
+
+  [property: string]: any;
+}
+
+
+interface Pagination {
+  offset: number;
+  items: import('@bloomreach/spa-sdk').Reference[];
+  total:number;
+  first: Page;
+  previous:Page;
+  current:Page;
+  next: Page;
+  last: Page;
+  pages: Page[];
+  size: number;
+  enabled: boolean;
+
+  [property: string]: any;
+}
+
+

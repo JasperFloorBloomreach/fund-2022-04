@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/myproject/hst:workspace/hst:containers/newslist/main/newslist:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.example.components.NewsComponent
+  hst:label: News List
+  hst:parameternames: [filterNews, hideFutureItems, documentDateField, pageSize, showPagination,
+    textToFilter, includeSubtypes, path, hidePastEvents, documentTypes, sortOrder,
+    sortField, org.hippoecm.hst.core.component.template]
+  hst:parametervalues: ['on', 'on', 'myproject:date', '10', 'on', Fake, 'off', '',
+    'on', 'myproject:newsdocument', desc, '', 'webfile:/freemarker/hstdefault/newslist-main-newslist.ftl']
+  hst:template: newslist-main-newslist

@@ -1,0 +1,928 @@
+/content/documents/myproject/products:
+  .meta:order-before: configuration
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: d0a2415b-8172-4e90-9932-c9f9131f2f35
+  hippostd:foldertype: [new-product-document, new-product-folder]
+  hippotranslation:id: 26355eca-b9f7-458c-8b6a-c109bcd88475
+  hippotranslation:locale: en
+  /a-product:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 2ccfac80-ea62-47a6-9bb4-5fc00f6d78d0
+    hippo:name: A Product
+    hippo:versionHistory: 24077fff-899e-4d7b-87b1-6a8ce0523e7f
+    /a-product[1]:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 83ec4e76-00d0-4310-8f17-3c4aedc8263e
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-06T16:56:25.450+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-06T17:15:51.152+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9a39f5e7-b24c-45f4-8d42-500f31215eb3
+      hippotranslation:locale: en
+      myproject:categories: [food, transport]
+      myproject:instock: 314
+      myproject:introduction: Product for you
+      myproject:price: 11.0
+      myproject:rating: 2.0
+      myproject:title: A Product
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Product produced by product producing producers.</p>
+    /a-product[2]:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 6d2590a1-e926-44e7-9d21-e9bb024307ec
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-06T16:56:25.450+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-06T17:15:57.490+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9a39f5e7-b24c-45f4-8d42-500f31215eb3
+      hippotranslation:locale: en
+      myproject:categories: [food, transport]
+      myproject:instock: 314
+      myproject:introduction: Product for you
+      myproject:price: 11.0
+      myproject:rating: 2.0
+      myproject:title: A Product
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Product produced by product producing producers.</p>
+    /a-product[3]:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 77d3ab5f-b496-45a7-a5e0-5657c715674f
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-06T16:56:25.450+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-06T17:15:57.490+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-04-06T17:16:00.565+02:00
+      hippotranslation:id: 9a39f5e7-b24c-45f4-8d42-500f31215eb3
+      hippotranslation:locale: en
+      myproject:categories: [food, transport]
+      myproject:instock: 314
+      myproject:introduction: Product for you
+      myproject:price: 11.0
+      myproject:rating: 2.0
+      myproject:title: A Product
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Product produced by product producing producers.</p>
+  /more-products:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated']
+    hippo:name: more products
+    hippostd:foldertype: [new-product-document, new-product-folder]
+    hippotranslation:id: 2cf95bfb-9b16-482e-9404-f93ee8aa5ec9
+    hippotranslation:locale: en
+    /product1:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1c2b8de6-ec32-4d5a-b4dc-4598bf30ab0c
+      /product1:
+        jcr:primaryType: myproject:product
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 5a1f5ac0-8ebe-4b1e-bf7a-4ccff89b9806
+        hippo:availability: [live, preview]
+        hippostd:state: published
+        hippostdpubwf:createdBy: system
+        hippostdpubwf:creationDate: 2022-04-07T15:20:18.291+02:00
+        hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.291+02:00
+        hippostdpubwf:lastModifiedBy: system
+        hippostdpubwf:publicationDate: 2022-04-07T15:20:18.291+02:00
+        hippotranslation:id: 7f92f477-4eec-41ce-ab0a-e498670f78fd
+        hippotranslation:locale: en
+        myproject:categories: [solar]
+        myproject:instock: 47
+        myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.
+        myproject:price: 38.63
+        myproject:rating: 4.0
+        myproject:title: Product 1
+        /myproject:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+    /product2:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5c1d693e-0a3e-4d04-bd73-567627919d83
+      /product2:
+        jcr:primaryType: myproject:product
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 82b876fe-9ab2-432b-b80b-27eca1b217c7
+        hippo:availability: [live, preview]
+        hippostd:state: published
+        hippostdpubwf:createdBy: system
+        hippostdpubwf:creationDate: 2022-04-07T15:20:18.291+02:00
+        hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.291+02:00
+        hippostdpubwf:lastModifiedBy: system
+        hippostdpubwf:publicationDate: 2022-04-07T15:20:18.291+02:00
+        hippotranslation:id: 1df73f80-a085-4d87-b8ea-85120f9b39cf
+        hippotranslation:locale: en
+        myproject:categories: [transport]
+        myproject:instock: 115
+        myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.
+        myproject:price: 35.5
+        myproject:rating: 4.0
+        myproject:title: Product 2
+        /myproject:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+    /product3:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f90b0e2a-ac15-4959-8d0a-7c45a45a6c14
+      /product3:
+        jcr:primaryType: myproject:product
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 371a7452-6be8-4461-8816-aed9c9c6020f
+        hippo:availability: [live, preview]
+        hippostd:state: published
+        hippostdpubwf:createdBy: system
+        hippostdpubwf:creationDate: 2022-04-07T15:20:18.292+02:00
+        hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.292+02:00
+        hippostdpubwf:lastModifiedBy: system
+        hippostdpubwf:publicationDate: 2022-04-07T15:20:18.292+02:00
+        hippotranslation:id: b9e8d59b-b27d-4aa2-afc3-5e441d85a697
+        hippotranslation:locale: en
+        myproject:categories: [food, transport]
+        myproject:instock: 0
+        myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.
+        myproject:price: 72.68
+        myproject:rating: 3.0
+        myproject:title: Product 3
+        /myproject:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+    /product4:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 690bd695-d828-4b2e-816b-89f2b1059a87
+      /product4:
+        jcr:primaryType: myproject:product
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: da95b229-2b84-4272-aeeb-c1f5122bd470
+        hippo:availability: [live, preview]
+        hippostd:state: published
+        hippostdpubwf:createdBy: system
+        hippostdpubwf:creationDate: 2022-04-07T15:20:18.293+02:00
+        hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.293+02:00
+        hippostdpubwf:lastModifiedBy: system
+        hippostdpubwf:publicationDate: 2022-04-07T15:20:18.293+02:00
+        hippotranslation:id: 61d88399-239f-419e-ae19-1f29897b7bd8
+        hippotranslation:locale: en
+        myproject:categories: [food, transport]
+        myproject:instock: 21
+        myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.
+        myproject:price: 48.31
+        myproject:rating: 0.0
+        myproject:title: Product 4
+        /myproject:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+    /product5:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2a262704-d5d2-4fb7-a4a6-6c4fa3e9e52f
+      /product5:
+        jcr:primaryType: myproject:product
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0e995eff-8383-4beb-9021-5736d6200896
+        hippo:availability: [live, preview]
+        hippostd:state: published
+        hippostdpubwf:createdBy: system
+        hippostdpubwf:creationDate: 2022-04-07T15:20:18.293+02:00
+        hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.293+02:00
+        hippostdpubwf:lastModifiedBy: system
+        hippostdpubwf:publicationDate: 2022-04-07T15:20:18.293+02:00
+        hippotranslation:id: fb30ff79-de29-42f7-90c3-a533b1a7cac8
+        hippotranslation:locale: en
+        myproject:categories: [food, solar]
+        myproject:instock: 59
+        myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.
+        myproject:price: 65.65
+        myproject:rating: 2.0
+        myproject:title: Product 5
+        /myproject:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+    /product6:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 898e42cc-f7d0-498d-8d96-0c62820dfd0d
+      /product6:
+        jcr:primaryType: myproject:product
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 0556b092-998c-4f73-bf06-f3564c0dcb45
+        hippo:availability: [live, preview]
+        hippostd:state: published
+        hippostdpubwf:createdBy: system
+        hippostdpubwf:creationDate: 2022-04-07T15:20:18.294+02:00
+        hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.294+02:00
+        hippostdpubwf:lastModifiedBy: system
+        hippostdpubwf:publicationDate: 2022-04-07T15:20:18.294+02:00
+        hippotranslation:id: 2db7e482-0599-41bb-b152-1c835c7c675d
+        hippotranslation:locale: en
+        myproject:categories: [food]
+        myproject:instock: 0
+        myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.
+        myproject:price: 65.61
+        myproject:rating: 2.0
+        myproject:title: Product 6
+        /myproject:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+    /product7:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 911f9b3a-2f2d-45f3-8102-1f5a50eb3fee
+      /product7:
+        jcr:primaryType: myproject:product
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 6651f64e-895c-44a8-940a-1389c45f2a8a
+        hippo:availability: [live, preview]
+        hippostd:state: published
+        hippostdpubwf:createdBy: system
+        hippostdpubwf:creationDate: 2022-04-07T15:20:18.294+02:00
+        hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.294+02:00
+        hippostdpubwf:lastModifiedBy: system
+        hippostdpubwf:publicationDate: 2022-04-07T15:20:18.294+02:00
+        hippotranslation:id: 3ae522e3-cf45-4a35-91a0-97abcdea1776
+        hippotranslation:locale: en
+        myproject:categories: [solar]
+        myproject:instock: 57
+        myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.
+        myproject:price: 73.13
+        myproject:rating: 3.0
+        myproject:title: Product 7
+        /myproject:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+    /product8:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 71e35f3a-bc53-49a4-a773-220df3ee706a
+      /product8:
+        jcr:primaryType: myproject:product
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 2a68822a-2e54-4edc-ab3d-b1b90da8170f
+        hippo:availability: [live, preview]
+        hippostd:state: published
+        hippostdpubwf:createdBy: system
+        hippostdpubwf:creationDate: 2022-04-07T15:20:18.294+02:00
+        hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.294+02:00
+        hippostdpubwf:lastModifiedBy: system
+        hippostdpubwf:publicationDate: 2022-04-07T15:20:18.294+02:00
+        hippotranslation:id: 3e96dfb2-28e6-4c23-b4cf-5ca92ed3111a
+        hippotranslation:locale: en
+        myproject:categories: [solar]
+        myproject:instock: 67
+        myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.
+        myproject:price: 16.92
+        myproject:rating: 4.0
+        myproject:title: Product 8
+        /myproject:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+    /product9:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7c57b045-9ab7-4f39-97c4-8d095741485e
+      /product9:
+        jcr:primaryType: myproject:product
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: fa44df19-b23c-435a-97bf-410214688953
+        hippo:availability: [live, preview]
+        hippostd:state: published
+        hippostdpubwf:createdBy: system
+        hippostdpubwf:creationDate: 2022-04-07T15:20:18.295+02:00
+        hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.295+02:00
+        hippostdpubwf:lastModifiedBy: system
+        hippostdpubwf:publicationDate: 2022-04-07T15:20:18.295+02:00
+        hippotranslation:id: bc7a3892-5fbb-48d4-99ee-b3a7696e46d4
+        hippotranslation:locale: en
+        myproject:categories: [transport]
+        myproject:instock: 0
+        myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.
+        myproject:price: 93.67
+        myproject:rating: 4.0
+        myproject:title: Product 9
+        /myproject:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+    /product10:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 84073e08-f92b-48f6-b3ce-fe9f4192847f
+      /product10:
+        jcr:primaryType: myproject:product
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 25589175-940b-41f1-aa9f-764a6646bb51
+        hippo:availability: [live, preview]
+        hippostd:state: published
+        hippostdpubwf:createdBy: system
+        hippostdpubwf:creationDate: 2022-04-07T15:20:18.295+02:00
+        hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.295+02:00
+        hippostdpubwf:lastModifiedBy: system
+        hippostdpubwf:publicationDate: 2022-04-07T15:20:18.295+02:00
+        hippotranslation:id: b4d7afe2-dd94-4bed-a2cf-0b45a23dba3e
+        hippotranslation:locale: en
+        myproject:categories: [solar, transport]
+        myproject:instock: 8
+        myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.
+        myproject:price: 99.43
+        myproject:rating: 0.0
+        myproject:title: Product 10
+        /myproject:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+    /product11:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 00020996-68af-41a3-8be5-4a9138163276
+      /product11:
+        jcr:primaryType: myproject:product
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a6db7af6-1875-46c0-bc37-b6feadec34ba
+        hippo:availability: [live, preview]
+        hippostd:state: published
+        hippostdpubwf:createdBy: system
+        hippostdpubwf:creationDate: 2022-04-07T15:20:18.295+02:00
+        hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.295+02:00
+        hippostdpubwf:lastModifiedBy: system
+        hippostdpubwf:publicationDate: 2022-04-07T15:20:18.295+02:00
+        hippotranslation:id: beb80978-b104-46be-8c1e-4a0ffbb1caa3
+        hippotranslation:locale: en
+        myproject:categories: [transport]
+        myproject:instock: 60
+        myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.
+        myproject:price: 7.87
+        myproject:rating: 4.0
+        myproject:title: Product 11
+        /myproject:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+    /product12:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5c919907-37f6-4a8f-befc-ad387e236b6f
+      /product12:
+        jcr:primaryType: myproject:product
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: a5d92d9b-600c-4e94-8505-bb787b3a4385
+        hippo:availability: [live, preview]
+        hippostd:state: published
+        hippostdpubwf:createdBy: system
+        hippostdpubwf:creationDate: 2022-04-07T15:20:18.296+02:00
+        hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.296+02:00
+        hippostdpubwf:lastModifiedBy: system
+        hippostdpubwf:publicationDate: 2022-04-07T15:20:18.296+02:00
+        hippotranslation:id: 25c47480-3d44-4b2f-a3bb-f4b7e5cf0761
+        hippotranslation:locale: en
+        myproject:categories: [food]
+        myproject:instock: 0
+        myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat.
+        myproject:price: 61.26
+        myproject:rating: 1.0
+        myproject:title: Product 12
+        /myproject:description:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.</p>
+  /product1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 4ad8e32d-53bc-4345-9607-0a8f45277d4e
+    /product1:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f9910c0f-dfc8-480d-b504-5d0acef7293b
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2022-04-07T15:20:18.281+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.280+02:00
+      hippostdpubwf:lastModifiedBy: system
+      hippostdpubwf:publicationDate: 2022-04-07T15:20:18.281+02:00
+      hippotranslation:id: 1320dfdc-0cb4-4dde-b685-f17f6c185383
+      hippotranslation:locale: en
+      myproject:categories: [food]
+      myproject:instock: 1
+      myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.
+      myproject:price: 89.04
+      myproject:rating: 2.0
+      myproject:title: Product 1
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+  /product2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 5bc68b30-c4bb-4731-ac67-de09aad46030
+    /product2:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f90ba087-dc2e-4455-8bb8-ccf0723ccc00
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2022-04-07T15:20:18.285+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.285+02:00
+      hippostdpubwf:lastModifiedBy: system
+      hippostdpubwf:publicationDate: 2022-04-07T15:20:18.285+02:00
+      hippotranslation:id: dfa33cbe-5161-4d5a-9c14-51d8cabe98b1
+      hippotranslation:locale: en
+      myproject:categories: [food, transport]
+      myproject:instock: 27
+      myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.
+      myproject:price: 39.0
+      myproject:rating: 3.0
+      myproject:title: Product 2
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+  /product3:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 40c508be-3cf7-491b-90e2-2fef74f4a812
+    /product3:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 6446d633-700a-48dc-8ebc-ef4996ff833a
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2022-04-07T15:20:18.286+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.286+02:00
+      hippostdpubwf:lastModifiedBy: system
+      hippostdpubwf:publicationDate: 2022-04-07T15:20:18.286+02:00
+      hippotranslation:id: d80e6399-af34-419c-a648-7e96c57842cd
+      hippotranslation:locale: en
+      myproject:categories: [solar, transport]
+      myproject:instock: 0
+      myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.
+      myproject:price: 38.26
+      myproject:rating: 5.0
+      myproject:title: Product 3
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+  /product4:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: d3ccf5ed-7592-4cda-80a4-d01ffdd163e1
+    /product4:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f118c76e-a147-4490-aa01-97e2bec9c5d2
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2022-04-07T15:20:18.286+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.286+02:00
+      hippostdpubwf:lastModifiedBy: system
+      hippostdpubwf:publicationDate: 2022-04-07T15:20:18.286+02:00
+      hippotranslation:id: d260917b-e3fd-4dd3-90dc-d4a048f5885b
+      hippotranslation:locale: en
+      myproject:categories: [solar]
+      myproject:instock: 0
+      myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.
+      myproject:price: 28.48
+      myproject:rating: 4.0
+      myproject:title: Product 4
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+  /product5:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 0a10017f-1179-413f-a6de-9df128925706
+    /product5:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: eb01ac07-25d6-49e9-a877-27bc1fb1bd58
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2022-04-07T15:20:18.287+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.287+02:00
+      hippostdpubwf:lastModifiedBy: system
+      hippostdpubwf:publicationDate: 2022-04-07T15:20:18.287+02:00
+      hippotranslation:id: 6cada28d-2223-4950-86c8-06278aab3076
+      hippotranslation:locale: en
+      myproject:categories: [transport]
+      myproject:instock: 70
+      myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.
+      myproject:price: 31.79
+      myproject:rating: 5.0
+      myproject:title: Product 5
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+  /product6:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 0c5f3620-ab4d-489c-ae7e-3c4f3c583eea
+    /product6:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2fda9b4a-e35e-409f-8c7d-e2ee11c6e552
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2022-04-07T15:20:18.287+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.287+02:00
+      hippostdpubwf:lastModifiedBy: system
+      hippostdpubwf:publicationDate: 2022-04-07T15:20:18.287+02:00
+      hippotranslation:id: 6116cfff-e5d3-45df-b284-f5ec660c1219
+      hippotranslation:locale: en
+      myproject:categories: [food, solar]
+      myproject:instock: 0
+      myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.
+      myproject:price: 93.58
+      myproject:rating: 0.0
+      myproject:title: Product 6
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+  /product7:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 286b0499-85f2-4853-83c9-49c6f8d0d9f7
+    /product7:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 08923c30-9839-4017-8145-802435e1929a
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2022-04-07T15:20:18.287+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.287+02:00
+      hippostdpubwf:lastModifiedBy: system
+      hippostdpubwf:publicationDate: 2022-04-07T15:20:18.287+02:00
+      hippotranslation:id: 424f393f-0130-49da-a7d5-b0b3bd9ba0fa
+      hippotranslation:locale: en
+      myproject:categories: [solar]
+      myproject:instock: 76
+      myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.
+      myproject:price: 42.75
+      myproject:rating: 0.0
+      myproject:title: Product 7
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+  /product8:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 24221c36-3957-472a-b0e8-e6578175f92b
+    /product8:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5b01d6ba-ce56-4129-bedf-18aaa7c3aae2
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2022-04-07T15:20:18.288+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.288+02:00
+      hippostdpubwf:lastModifiedBy: system
+      hippostdpubwf:publicationDate: 2022-04-07T15:20:18.288+02:00
+      hippotranslation:id: 7bbae619-eb17-4ece-9b82-b4717659897e
+      hippotranslation:locale: en
+      myproject:categories: [food]
+      myproject:instock: 38
+      myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.
+      myproject:price: 46.88
+      myproject:rating: 0.0
+      myproject:title: Product 8
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+  /product9:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 271912ec-8dda-4cca-9002-c2bb3d32ce95
+    /product9:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 37b84a50-1dfd-4906-bd41-0dc533f41934
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2022-04-07T15:20:18.289+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.289+02:00
+      hippostdpubwf:lastModifiedBy: system
+      hippostdpubwf:publicationDate: 2022-04-07T15:20:18.289+02:00
+      hippotranslation:id: 4d26fc42-e959-4fa5-aacf-7595226a84a0
+      hippotranslation:locale: en
+      myproject:categories: [food, solar, transport]
+      myproject:instock: 0
+      myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.
+      myproject:price: 86.01
+      myproject:rating: 1.0
+      myproject:title: Product 9
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+  /product10:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 097cd652-338e-40b2-ab6f-cdec9e974a40
+    /product10:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 581235d2-faf8-4b68-935e-18112c185a5b
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2022-04-07T15:20:18.289+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.289+02:00
+      hippostdpubwf:lastModifiedBy: system
+      hippostdpubwf:publicationDate: 2022-04-07T15:20:18.289+02:00
+      hippotranslation:id: 8b91641e-00c9-467d-a4ea-26c084e4e5ce
+      hippotranslation:locale: en
+      myproject:categories: [food, solar]
+      myproject:instock: 79
+      myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.
+      myproject:price: 40.93
+      myproject:rating: 3.0
+      myproject:title: Product 10
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+  /product11:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: eeccb3b4-9b85-4202-9f95-1531d99db283
+    /product11:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: b2a6f0e6-befb-48a0-a552-45127fb4421c
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2022-04-07T15:20:18.289+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.289+02:00
+      hippostdpubwf:lastModifiedBy: system
+      hippostdpubwf:publicationDate: 2022-04-07T15:20:18.289+02:00
+      hippotranslation:id: 9424ffaf-d642-439c-92e6-5df618795e41
+      hippotranslation:locale: en
+      myproject:categories: [food]
+      myproject:instock: 117
+      myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.
+      myproject:price: 49.72
+      myproject:rating: 5.0
+      myproject:title: Product 11
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+  /product12:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: f36d881f-b91b-4010-ae1d-37125ef3c4c6
+    /product12:
+      jcr:primaryType: myproject:product
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5bd4cd7b-b249-462b-81b5-bc636775bab1
+      hippo:availability: [live, preview]
+      hippostd:state: published
+      hippostdpubwf:createdBy: system
+      hippostdpubwf:creationDate: 2022-04-07T15:20:18.290+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-07T15:20:18.290+02:00
+      hippostdpubwf:lastModifiedBy: system
+      hippostdpubwf:publicationDate: 2022-04-07T15:20:18.290+02:00
+      hippotranslation:id: 1387a615-33ea-4780-9009-d1b3edad27bb
+      hippotranslation:locale: en
+      myproject:categories: [food]
+      myproject:instock: 0
+      myproject:introduction: Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.
+      myproject:price: 73.13
+      myproject:rating: 0.0
+      myproject:title: Product 12
+      /myproject:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p><p>Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>

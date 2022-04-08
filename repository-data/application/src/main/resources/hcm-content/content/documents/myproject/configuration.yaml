@@ -1,0 +1,30 @@
+/content/documents/myproject/configuration:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 7b936e30-fcef-4d51-bcaf-3daecffd8634
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: ce79abd2-a653-4959-b523-01d6c5df1e44
+  hippotranslation:locale: en
+  /categories:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: ccec058b-9ebc-42d7-bf98-eb330c3b0259
+    /categories:
+      jcr:primaryType: selection:valuelist
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+      jcr:uuid: 578437c5-a8a2-4035-b046-415e3d6b6ee7
+      hippo:availability: [live, preview]
+      hippotranslation:id: 7a85e755-987b-4d7c-9b6f-f21877bd728d
+      hippotranslation:locale: en
+      /selection:listitem[1]:
+        jcr:primaryType: selection:listitem
+        selection:key: food
+        selection:label: yummies
+      /selection:listitem[2]:
+        jcr:primaryType: selection:listitem
+        selection:key: transport
+        selection:label: vroom vroom
+      /selection:listitem[3]:
+        jcr:primaryType: selection:listitem
+        selection:key: solar
+        selection:label: Hot and bright

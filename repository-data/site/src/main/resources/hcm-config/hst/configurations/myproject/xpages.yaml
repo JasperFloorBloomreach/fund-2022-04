@@ -1,0 +1,12 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/myproject/hst:xpages:
+      jcr:primaryType: hst:xpages
+      /landing-page:
+        jcr:primaryType: hst:xpage
+        hst:label: Landing Page
+        hst:referencecomponent: hst:abstractpages/base
+        /main:
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: fc3b4497-cec5-4b0a-9759-b6afa4745269
+          hst:xtype: hst.vbox

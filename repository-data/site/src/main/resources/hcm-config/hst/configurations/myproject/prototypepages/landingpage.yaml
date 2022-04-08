@@ -1,0 +1,12 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/myproject/hst:prototypepages/landingpage:
+      jcr:primaryType: hst:component
+      jcr:mixinTypes: ['hst:prototypemeta']
+      hst:displayname: Landing Page
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:containercomponent
+        hippo:identifier: ee63eb81-8b23-4a16-9c8d-5aec5b11ac42
+        hst:xtype: hst.vbox
+        hst:label: Landing Page Main

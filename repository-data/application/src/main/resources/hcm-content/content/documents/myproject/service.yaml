@@ -1,0 +1,97 @@
+/content/documents/myproject/service:
+  .meta:order-before: products
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: eada70d7-18be-4b60-9eaf-ef8b1c030c8a
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: bd201705-d6cf-4ad2-b5dd-bdb7304484ce
+  hippotranslation:locale: en
+  /about-us:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: f767a9f1-7016-4493-9da1-71dfa35f08c7
+    hippo:name: About Us
+    hippo:versionHistory: c8fb39ba-a808-4dbf-a477-3fdb75dde7e1
+    /about-us[1]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9ac72704-5254-42d5-a383-f4195c0a3b64
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:holder: admin
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-06T13:57:36.683+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-08T15:45:23.691+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a02d89a8-0a7a-446d-8e84-00abab543ab7
+      hippotranslation:locale: en
+      myproject:introduction: Us is we
+      myproject:publicationdate: 0001-01-01T13:00:00+01:00
+      myproject:title: About Us
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>I am you, <a href="the-medusa-news">and</a> you are me,
+          and we are <strong>bold</strong>all together.</p>
+        /the-medusa-news:
+          jcr:primaryType: hippo:facetselect
+          hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /about-us[2]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 9125c50d-731a-4f59-8c91-7eda1bbf02b4
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-06T13:57:36.683+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-08T15:45:20.515+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a02d89a8-0a7a-446d-8e84-00abab543ab7
+      hippotranslation:locale: en
+      myproject:introduction: Us is we
+      myproject:publicationdate: 0001-01-01T13:00:00+01:00
+      myproject:title: About Us
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>I am you, <a href="the-medusa-news">and</a> you are me,
+          and we are <strong>bold</strong>all together.</p>
+        /the-medusa-news:
+          jcr:primaryType: hippo:facetselect
+          hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /about-us[3]:
+      jcr:primaryType: myproject:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 16520e5c-3f78-4a1b-9fd2-37e6f7a00383
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-04-06T13:57:36.683+02:00
+      hippostdpubwf:lastModificationDate: 2022-04-08T15:27:02.855+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-04-08T15:27:08.221+02:00
+      hippotranslation:id: a02d89a8-0a7a-446d-8e84-00abab543ab7
+      hippotranslation:locale: en
+      myproject:introduction: Us is we
+      myproject:publicationdate: 0001-01-01T13:00:00+01:00
+      myproject:title: About Us
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>I am you, <a href="the-medusa-news">and</a> you are me,
+          and we are all together.</p>
+        /the-medusa-news:
+          jcr:primaryType: hippo:facetselect
+          hippo:docbase: c580ac64-3874-4717-a6d9-e5ad72080abe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []

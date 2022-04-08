@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/cms-services/localeProviderService/sv:
+      jcr:primaryType: frontend:pluginconfig
+      country: se
+      language: sv
